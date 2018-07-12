@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pomdesign.AllProductsTests">
+      <class name="pomdesign.OrderTests">
         <methods>
-          <include name="labelsVerification"/>
+          <include name="orderSubmit"/>
           <include name="setUp"/>
           <include name="setUpApplication"/>
         </methods>
-      </class> <!-- pomdesign.AllProductsTests -->
+      </class> <!-- pomdesign.OrderTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
